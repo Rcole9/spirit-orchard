@@ -99,5 +99,3 @@ export default function GameBoard() {
     </div>
   );
 }
-
-export default GameBoard;
