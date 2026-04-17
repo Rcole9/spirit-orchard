@@ -1,9 +1,0 @@
-# No vercel.json is needed for Create React App on Vercel.
-# Vercel will detect the build script and output directory automatically.
-# If you need custom rewrites or redirects, add them here as needed.
-# Vercel configuration for Spirit Orchard React app
-
-# Use the static build output from create-react-app
-[build]
-  command = "npm run build"
-  publish = "build"
