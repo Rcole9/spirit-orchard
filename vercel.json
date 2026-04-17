@@ -1,0 +1,6 @@
+# Vercel configuration for Spirit Orchard React app
+
+# Use the static build output from create-react-app
+[build]
+  command = "npm run build"
+  publish = "build"

@@ -1,0 +1,7 @@
+# .vercelignore
+# Ignore files and folders that should not be uploaded to Vercel
+node_modules
+src
+public/assets/audio/*.mid
+public/assets/audio/*.zip
+*.log
