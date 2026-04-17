@@ -35,7 +35,7 @@ function App() {
       </p>
       <h2 style={{ color: '#7a5c2e', margin: '18px 0 8px' }}>Your Farmer:</h2>
       <AnimatedSprite
-        src={process.env.PUBLIC_URL + "/assets/farmer.png"}
+        src={process.env.PUBLIC_URL + "/assets/images/characters/Animated/Pan_01-Sheet.png"}
         frameWidth={32}
         frameHeight={32}
         frames={4}
