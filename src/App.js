@@ -1,4 +1,5 @@
 import React from "react";
+import AudioPlayer from "./components/UI/AudioPlayer";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <h1>🌱 Spirit Orchard 🌱</h1>
       <p>A cozy farming and spirit-befriending game prototype.</p>
       <p>Start building your orchard and befriend gentle spirits!</p>
+      <AudioPlayer />
     </div>
   );
 }
