@@ -8,14 +8,18 @@ function Tile({ type, onClick }) {
   const style = {
     width: 40,
     height: 40,
-    border: '1px solid #aaa',
-    background: `url(${imgSrc}) center/cover no-repeat`,
+    border: '2px solid #b7e0c7',
+    borderRadius: 8,
+    background: `url(${imgSrc}) center/cover no-repeat, #e6d3b3` ,
     cursor: 'pointer',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     userSelect: 'none',
     position: 'relative',
+    boxShadow: '0 2px 8px #b7e0c7',
+    margin: 1,
+    transition: 'box-shadow 0.2s',
   };
   return (
     <div style={style} onClick={onClick} title={type}>
