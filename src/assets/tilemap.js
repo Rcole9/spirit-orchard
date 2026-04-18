@@ -1,13 +1,13 @@
 // Simple tilemap for a 5x5 world
 // 0 = grass, 1 = path, 2 = crop, 3 = tree, 4 = player, 5 = spirit
 // 0 = grass, 1 = path, 2 = crop, 3 = tree, 4 = player, 5 = spirit
-// 6 = farm prop, 7 = furniture prop, 8 = pixel tree, 9 = meat, 10 = pan, 11 = alt pixel tree, 12 = vegetation, 13 = tools, 14 = third pixel tree, 15 = rocks, 16 = resources, 17 = dungeon props, 18 = esoteric, 19 = shadows, 20 = fourth pixel tree
+// 6 = farm prop, 7 = furniture prop, 8 = pixel tree, 9 = meat, 10 = pan, 11 = alt pixel tree, 12 = vegetation, 13 = tools, 14 = third pixel tree, 15 = rocks, 16 = resources, 17 = dungeon props, 18 = esoteric, 19 = shadows, 20 = fourth pixel tree, 21 = bonfire, 22 = fifth pixel tree
 export const TILEMAP = [
   [0, 0, 1, 18, 15],
   [0, 2, 9, 3, 12],
-  [1, 6, 4, 7, 10],
+  [1, 6, 4, 7, 21],
   [13, 2, 8, 5, 11],
-  [16, 19, 1, 17, 20],
+  [16, 19, 1, 17, 22],
 ];
 
 export const TILE_IMAGES = {
@@ -30,6 +30,8 @@ export const TILE_IMAGES = {
  18: process.env.PUBLIC_URL + '/assets/images/props/Static/Esoteric.png', // esoteric prop (Pixel Crawler)
  19: process.env.PUBLIC_URL + '/assets/images/props/Static/Shadows.png', // shadows prop (Pixel Crawler)
  20: process.env.PUBLIC_URL + '/assets/images/props/Static/Trees/Model_01/Size_05.png', // fourth pixel tree (Pixel Crawler)
+ 21: process.env.PUBLIC_URL + '/assets/images/structures/Stations/Bonfire/Bonfire.png', // bonfire (Pixel Crawler)
+ 22: process.env.PUBLIC_URL + '/assets/images/props/Static/Trees/Model_02/Size_05.png', // fifth pixel tree (Pixel Crawler)
 };
 
 export const PLAYER_SPRITE = process.env.PUBLIC_URL + '/assets/kenney_tiny-town/Tiles/tile_0004.png';
